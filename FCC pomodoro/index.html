@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/794b746eef.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="title">POMODORO</h1>
+        <div class="settings">
+            <div id="break-label">
+                <span>Break Length</span>
+                <span class="innerColumns">
+                    <button id="break-increment"><i class="fas fa-angle-up"></i></button>
+                    <div id="break-length"></div>
+                    <button id="break-decrement"><i class="fas fa-angle-down"></i></button>
+                </span>
+            </div>
+            <div id="session-label">
+                <span>Session Length</span>
+                <span class="innerColumns">
+                    <button id="session-increment"><i class="fas fa-angle-up"></i></button>
+                    <div id="session-length">25</div>
+                    <button id="session-decrement"><i class="fas fa-angle-down"></i></button>
+                </span>
+            </div>
+        </div>
+        <div class="timer">
+            <div class="timeDisplay">
+                <span id="timer-label">
+                    Session
+                </span>
+                <span id="time-left">
+                    25:00
+                </span>
+            </div>
+            <div class="buttons">
+                <button id="start_stop"><i class="fas fa-play" id="playBtn"></i><i class="fas fa-pause"
+                        id="pauseBtn"></i></button>
+                <button id="reset"><i class="fas fa-sync-alt"></i></button>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footerContent">
+
+        <a href="mailto: wagner.tomek@gmail.com">
+            <h1 class="footerEmail">TomW</h1>
+        </a>
+        <div class="contactlinks">
+            <a href="https://twitter.com/TomaszWagner1" class="footerLinks"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/tom-wagner-29126931/" class="footerLinks"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/tacotoemeck" class="footerLinks"><i class="fab fa-github"></i></a>
+            <a href="https://codepen.io/tacotomek" class="footerLinks"><i class="fab fa-codepen"></i></a>
+            <a href="https://codepen.io/tacotomek" class="footerLinks"><i class="fab fa-free-code-camp"></i></i></a>
+        </div>
+    </div>
+
+    <script src='script.js'></script>
+
+    <audio id="beep" src="">
+
+
+</body>
+
+</html>
